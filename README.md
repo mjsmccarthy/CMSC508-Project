@@ -11,3 +11,5 @@ There are three main files that must be modified for deployment on App Engine:
   3) `php.ini`: A file that enables functions in App Engine, which are normally disabled.
 
 After those files have been created or modified, the app can be deployed to App Engine and viewed by using the correct URL with your app ID.
+
+Lastly, for a detailed description of the project proposal, please refer to the `Database Project Proposal` file located in the root directory. It outlines the design goals and logical behind the project. There are also instructions on how to access the user interface.
