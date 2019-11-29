@@ -5,7 +5,7 @@ There are two main components associated with this project.
 
 1) `Project Proposal`: A proposal that outlines the need for a hospital database. In addition to describing the conceptual and logical design, the proposal also covers the main elements for creating the database using MySQL.
 
-2) `Web Interface`: A friendly user interface to interact with the database and provide a way to handle administrative tasks.
+2) `Web Interface`: A friendly user interface to interact with the database, providing a way to handle administrative tasks.
 
 ## Project Proposal
 For a detailed description of the project proposal, please refer to the [Database Project Proposal](Database_Project_Proposal.docx) file located in the root directory. It outlines the design and logic behind the project. There are also instructions on how to access the web interface.
@@ -24,4 +24,9 @@ There are three main files that must be modified for deployment on App Engine:
   3) `php.ini`: A file that enables functions in App Engine, which are normally disabled.
 
 After those files have been created or modified, the app can be deployed to App Engine and viewed by using the correct URL with your app ID.
+
+## Resources
+
+- `Source Code`: As mentioned, the source code for the web interface can be located inside the `phpMyAdmin` directory.
+- `SQL Commands`: To see the SQL commands used to build the sample hospital database, refer to the [project_sql.sql](project_sql.sql) file.
 
