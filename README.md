@@ -3,7 +3,7 @@
 ## Description
 There are two main components associated with this project. 
 
-1) `Project Proposal`: A proposal that outlines the need for a hospital database and describes the conceptual and logical design. The proposal also covers the main elements for creating the database using MySQL.
+1) `Project Proposal`: A proposal that outlines the need for a hospital database. In addition to describing the conceptual and logical design, the proposal also covers the main elements for creating the database using MySQL.
 
 2) `Web Interface`: A friendly user interface to interact with the database and provide a way to handle administrative tasks.
 
@@ -18,7 +18,9 @@ For a detailed explanation on setting up the interface, the following tutorial w
 
 There are three main files that must be modified for deployment on App Engine:
   1) `app.yaml`: Primary App Enginge configuration file that specifies how URL paths correspond to request handlers and static files.
+
   2) `config.inc.php`: The configuration file for phpMyAdmin. This file contains the cloud SQL connection string.
+  
   3) `php.ini`: A file that enables functions in App Engine, which are normally disabled.
 
 After those files have been created or modified, the app can be deployed to App Engine and viewed by using the correct URL with your app ID.
