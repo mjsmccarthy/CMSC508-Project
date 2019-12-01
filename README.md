@@ -8,7 +8,7 @@ There are two main components associated with this project.
 2) `Web Interface`: A friendly user interface to interact with the database, providing a way to handle administrative tasks.
 
 ## Project Proposal
-For a detailed description of the project proposal, please refer to the [Database Project Proposal](Database_Project_Proposal.docx) file located in the root directory. It outlines the design and logic behind the project. There are also instructions on how to access the web interface.
+For a detailed description of the project proposal, please refer to the [Database Project Proposal](Database_Project_Proposal.pdf) file located in the root directory. It outlines the design and logic behind the project. There are also instructions on how to access the web interface.
 
 ## Web Interface
 
@@ -29,4 +29,5 @@ After those files have been created or modified, the app can be deployed to App 
 
 - `Source Code`: As mentioned, the source code for the web interface can be located inside the `phpMyAdmin` directory.
 - `SQL Commands`: To see the SQL commands used to build the sample hospital database, refer to the [project_sql.sql](project_sql.sql) file.
+- `Web Interface`: To view the web interface, click the following [link](https://cmsc508-project-258320.appspot.com). Please refer to the proposal file for user login information.
 
